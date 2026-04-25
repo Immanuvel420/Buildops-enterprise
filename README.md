@@ -1,20 +1,54 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# BuildOps Nexus | Enterprise Infra Monitoring
 
-# Run and deploy your AI Studio app
+BuildOps Nexus is a futuristic enterprise-grade infrastructure monitoring platform designed for smart mall management. It provides a seamless interface for customers to report issues, maintenance workers to track tasks, and administrators to gain high-level operational insights.
 
-This contains everything you need to run your app locally.
+## 🚀 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/e0f6eaa1-8ef7-4ff9-8922-a477f2a19692
+- **Multi-Role Ecosystem**: Tailored workflows for Customers, Maintenance Workers, and Administrators.
+- **Visual Issue Reporting**: intuitive floor and block selector system for precise issue location reporting with image upload support.
+- **Real-time Tracking**: Live status updates for reported issues (Pending, In Progress, Resolved).
+- **Maintenance Command Center**: A dedicated dashboard for workers to manage their daily rotation and update repair statuses.
+- **Admin Analytics**: High-level data visualization of system health, asset failure distribution, and operational efficiency using Recharts.
+- **Futuristic UI**: A high-performance "Glassmorphism" interface built with Tailwind CSS and Framer Motion for smooth transitions.
 
-## Run Locally
+## 🛠️ Technical Stack
 
-**Prerequisites:**  Node.js
+- **Frontend**: React 19 + TypeScript
+- **Styling**: Tailwind CSS (PostCSS)
+- **Icons**: Lucide React
+- **Charts**: Recharts
+- **Build Tool**: Vite
 
+## 🏗️ Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## 📁 Project Structure
+
+- `src/components/UserFlow`: Components for customer issue reporting.
+- `src/components/WorkerPanel`: Maintenance worker management tools.
+- `src/components/AdminPanel`: Administrative analytics and overviews.
+- `src/services`: Core logic and data handling (formerly featured AI scanning).
+- `src/types.ts`: Centralized TypeScript definitions for data integrity.
+
+## 🛡️ Security & Privacy
+
+The platform implements role-based access control (RBAC) to ensure that sensitive infrastructure data and maintenance logs are only accessible to authorized personnel.
+
+---
+*Built for the next generation of smart infrastructure management.*
