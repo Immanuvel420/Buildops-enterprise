@@ -1,0 +1,7 @@
+{
+  "name": "Remix:  BuildOps Nexus",
+  "description": "A futuristic enterprise-grade smart mall infrastructure monitoring platform featuring 3D building visualization and real-time operational insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
